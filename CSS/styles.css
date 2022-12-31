@@ -1,10 +1,22 @@
+body{
+    background: url("../images/ciel.png") repeat-x;
+    background-size: auto 100vh;
+    margin: 0;
+}
+
+#paysage{
+    background: url("../images/paysage.png") repeat-x;
+    position: fixed;
+    bottom: 0;
+    height: 283px;
+    width: 100%;
+}
+
 #mario{
     background: url("../images/mario.png");
     height: 42px;
     width: 30px;
     background-position-x: -3px;
-    animation: mario 0.5s steps(25) infinite;
-    transform: scaleX(-1);
 }
 
 .mario-gauche{
