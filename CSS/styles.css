@@ -3,6 +3,17 @@
     height: 42px;
     width: 30px;
     background-position-x: -3px;
+    animation: mario 0.5s steps(25) infinite;
+    transform: scaleX(-1);
+}
+
+.mario-gauche{
+    animation: mario 0.5s steps(25) infinite;
+    transform: scaleX(-1);
+}
+
+.mario-droite{
+    animation: mario 0.5s steps(25) infinite;
 }
 
 @keyframes mario{
