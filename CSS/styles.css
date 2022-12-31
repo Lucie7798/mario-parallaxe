@@ -1,0 +1,13 @@
+#mario{
+    background: url("../images/mario.png");
+    height: 42px;
+    width: 30px;
+    background-position-x: -3px;
+}
+
+@keyframes mario{
+    100%{
+        background-position-x: 
+        -1005px;
+    }
+}
