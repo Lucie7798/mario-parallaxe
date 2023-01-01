@@ -39,14 +39,16 @@ body{
     transform: translate(-50%);
 }
 
-.mario-gauche{
-    animation: mario 0.5s steps(25) infinite;
-    transform: scaleX(-1);
-}
-
 .mario-droite{
     animation: mario 0.5s steps(25) infinite;
 }
+
+.mario-gauche{
+    animation: mario 0.5s steps(25) infinite;
+    transform: translateX(-50%) scaleX(-1);
+}
+
+
 
 @keyframes mario{
     100%{
