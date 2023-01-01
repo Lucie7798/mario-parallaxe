@@ -33,6 +33,10 @@ body{
     height: 42px;
     width: 30px;
     background-position-x: -3px;
+    position: absolute;
+    bottom: 68px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .mario-gauche{
