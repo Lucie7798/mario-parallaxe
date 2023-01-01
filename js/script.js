@@ -41,3 +41,10 @@ function stopper(event){
     mario.classList.remove("mario-gauche")
     mario.classList.remove("mario-droite")
 }
+
+function parallaxe() {
+     // On décale les différents éléments
+     solBas.style.backgroundPositionX = (decalage *4) + "px"
+     solHaut.style.backgroundPositionX = (decalage *4) + "px"
+     paysage.style.backgroundPositionX = (decalage *2) + "px"
+}
